@@ -1,8 +1,14 @@
-*{
+html { 
+  background: url(ashu.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
 
 a,a :hover{
     text-decoration: none;
@@ -12,13 +18,7 @@ ul{
     list-style: none;
 }
 
-html { 
-  background: url(ashu1.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 .Header .navbar{
     width: 100%;
     height: 80px;
